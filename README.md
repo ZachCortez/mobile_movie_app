@@ -1,50 +1,119 @@
-# Welcome to your Expo app 👋
+<div align="center">
+  <br />
+    <a href="https://ibb.co/8n3Nypkp"><img src="https://i.ibb.co/Nght0PRP/Movie-Flix-SS.png" alt="Movie-Flix-SS" border="0"></a>
+  <br />
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+  <div>
+    <img src="https://img.shields.io/badge/-React_Native-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="React Native" />
+    <img src="https://img.shields.io/badge/-Expo-black?style=for-the-badge&logoColor=white&logo=expo&color=000020" alt="Expo" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="TypeScript" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="Tailwind CSS" />
+    <img src="https://img.shields.io/badge/-Appwrite-black?style=for-the-badge&logoColor=white&logo=appwrite&color=F02E65" alt="Appwrite" />
+  </div>
 
-## Get started
+<h3 align="center">A Movie Finding App with Extensive Search</h3>
 
-1. Install dependencies
+   <div align="center">
+    Built with Expo, TypeScript, and Tailwind CSS, this app fetches movies and creates a popularity algorithm using Appwrite.
+    </div>
+</div>
 
-   ```bash
-   npm install
-   ```
+## 📋 <a name="table">Table of Contents</a>
 
-2. Start the app
+1. 🤖 [Introduction](#introduction)
 
-   ```bash
-    npx expo start
-   ```
+2. ⚙️ [Tech Stack](#tech-stack)
 
-In the output, you'll find options to open the app in a
+3. 🔋 [Features](#features)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+4. 🚀 [Quick Start](#quick-start)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
 
-When you're ready, run:
+## <a name="introduction">🤖 Introduction</a>
+
+Built with Expo, TypeScript, and Tailwind CSS, this app fetches movies and creates a popularity algorithm using Appwrite. It provides users with a seamless browsing experience, ranking movies based on various engagement metrics. The app leverages modern UI/UX principles for a responsive and visually appealing interface, ensuring real-world scalability and performance.
+
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- Expo
+
+- React Native
+
+- Appwrite
+
+- TypeScript
+
+- Tailwind CSS
+
+## <a name="features">🔋 Features</a>
+
+### Features of the Mobile Movie AppProject
+
+👉 **Real-time data**: Fetching and displaying real-time movie data
+
+👉 **Home Page**: Featured and discover movies
+
+👉 **Search Page**: Search for your favorite movies
+
+👉 **Popularity algorithm**: Track user searches to display the most popular movies
+
+(etc)
+
+and many more, including code architecture and reusability.
+
+## <a name="quick-start">🚀 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+
+- [Node.js](https://nodejs.org/en)
+
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+
+**Installation**
+
+Install the project dependencies using npm:
 
 ```bash
-npm run reset-project
+
+npm install
+
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Set Up Environment Variables**
 
-## Learn more
+Create a new file named `.env` in the root of your project and add the following content:
 
-To learn more about developing your project with Expo, look at the following resources:
+```env
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+EXPO_PUBLIC_MOVIE_API_KEY=
 
-## Join the community
+EXPO_PUBLIC_APPWRITE_PROJECT_ID=
 
-Join our community of developers creating universal apps.
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+EXPO_PUBLIC_APPWRITE_COLLECTION_ID=
+
+
+
+```
+
+Replace the placeholder values with your actual TMDB API key, Appwrite project ID, Database ID, and Collection ID. You can obtain these credentials by signing up on the [Appwrite](https://cloud.appwrite.io/console/login), [TMDB](https://www.themoviedb.org/login).
+
+**Running the Project**
+
+```bash
+
+npx expo start
+
+```
+
+Open your ExpoGO app on your phone and scan the QR code to view the project.
